@@ -1,0 +1,272 @@
+::-webkit-scrollbar{
+    display: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header img{
+    height: 55vw;
+}
+header{
+    background-color: pink;
+    padding-bottom:3.7vw ;
+}
+.circle{
+    border-radius: 50%;
+    width: 20vw;
+    height:20vw;
+    border: 10px solid white;
+    margin-left: 38vw;
+    background-color: rgb(67, 65, 65);
+    margin-top: -50vw;
+    position: absolute;
+    transition: 0.5s;
+
+}
+.circle h1{
+    padding-top:3vw;
+    font-size: 5vw;
+    color: white;
+    text-align: center;
+    margin-bottom: -1vh;
+}
+.circle p{
+    text-align: center;
+    font-size: 2vw ;
+    color: white;
+}
+header .leftside{
+    margin-left: 50vw;
+    margin-top: -23vw;
+    font-size: 2vw;
+    color: white;
+    transition: 0.5s;
+}
+nav{
+    padding-top: 1vw;
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin-left: 12vw;
+}
+li{
+    margin-left: 5vw;
+    font-size: 2vw;
+    transition: 0.5s;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.aboutme{
+    background-color: #7B7070;
+}
+.aboutme h1{
+    text-align: center;
+    padding-top: 5vw;
+    font-size: 3vw;
+    color: white;
+    transition: 0.5s;
+}
+.horizontal-line{
+    background-color: white;
+    width: 55vw;
+    height: 0.1vw;
+    margin-left: 22vw;
+}
+.identity{
+    display: flex;
+    margin-left:20vw;
+    padding-bottom: 5vw;
+}
+.identity .title {
+    color: black;
+    transition: 0.5s;
+}
+.identity p{
+    color: white;
+    transition: 0.5s;
+}
+.identity{
+    font-size: 2vw;
+}
+.identity .leftside{
+    text-align: right;
+    padding-right: 2vw;
+}
+.identity .rightside{
+    padding-left: 2vw;
+}
+.identity img{
+    height:30vw;
+    margin-top: 5vw;
+}
+
+.myskills h1{
+    text-align: center;
+    padding-top: 2vw;
+    font-size: 3vw;
+}
+.myskills .horizontal-line{
+    background-color: black;
+    width: 55vw;
+    height: 0.1vw;
+}
+.myskills img{
+    height: 5vw;
+    margin-left: 2vw;
+    margin-top: 2vw;
+}
+.aftereffectbar{
+    background: linear-gradient(to right, red,red 90%, white 50%);
+    border: 1px solid gray;
+    width: 80vw;
+    height: 2vw;
+    margin-left: 2vw;
+    margin-top: 3.5vw;
+}
+.photoshopbar{
+    background: linear-gradient(to right, red,red 60%, white 50%);
+    border: 1px solid gray;
+    width: 80vw;
+    height: 2vw;
+    margin-left: 2vw;
+    margin-top: 3.5vw;
+}
+.illustratorbar{
+    background: linear-gradient(to right, red,red 70%, white 50%);
+    border: 1px solid gray;
+    width: 80vw;
+    height: 2vw;
+    margin-left: 2vw;
+    margin-top: 3.5vw;
+}
+.premierebar{
+    background: linear-gradient(to right, red,red 50%, white 50%);
+    border: 1px solid gray;
+    width: 80vw;
+    height: 2vw;
+    margin-left: 2vw;
+    margin-top: 3.5vw;
+}
+.verticalline{
+    background-color: black;
+    width: 0.1vw;
+    height: 5vw;
+    margin-left: 2vw;
+    margin-top: 2vw;
+}
+.aftereffect, .photoshop, .illustrator, .premiere{
+    display: flex;
+}
+.portfolio img{
+    height: 10vw;
+    margin-left: 5vw;
+}
+.spectrum, .liquid, .particular{
+    display:flex;
+    margin-top: 3vw;
+}
+.portfolio .horizontalline{
+    background-color: black;
+    width: 50vw;
+    height: 0.1vw;
+}
+.portfolio{
+    background-color: #7B7070;
+    padding-bottom: 5vw;
+}
+.portfolio h1{
+    padding-top: 2vw;
+    font-size: 5vw;
+    text-align: center;
+}
+.portfolio .horizontalline{
+    margin-left: 25vw;
+}
+.portfolio p{
+    margin-top: 4.5vw;
+    font-size: 2vw;
+    margin-left: 2vw;
+}
+.CONTACTS .title{
+    text-align: center;
+    font-size: 4vw;
+}
+.CONTACTS .horizontalline{
+    background-color: black;
+    width: 50vw;
+    height: 0.1vw;
+    margin-left: 25vw;
+}
+.CONTACTS img{
+    height: 5vw;
+}
+.ig, .facebook, .twitter{
+    display: flex;
+    margin-top: 1vw;
+    margin-left: 10vw;
+}
+.CONTACTS p{
+    font-size: 3vw;
+}
+.ig p, .facebook p, .twitter p{
+    margin-top: 1vw;
+    margin-left: 2vw;
+}
+.circle:hover{
+    background-color: black;
+    border: 10px solid white;
+    width: 20vw;
+    height:20vw;
+    border-radius: 50%;
+    margin-left: 38vw;
+    margin-top: -50vw;
+    position: absolute;
+    transition: 0.5s;
+}
+.circle h1{
+    padding-top:3vw;
+    font-size: 5vw;
+    color: white;
+    text-align: center;
+    margin-bottom: -1vh;
+    animation: text 1s ease-in-out;
+}
+@keyframes text{
+    0%{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.circle{
+    background-color: #7B7070;
+    border: 10px solid white;
+    width: 20vw;
+    height:20vw;
+    border-radius: 50%;
+    margin-left: 38vw;
+    margin-top: -50vw;
+    position: absolute;
+    transition: 0.5s;
+    animation: circle 1s ease-in-out;
+}
+@keyframes circle{
+    0%{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
